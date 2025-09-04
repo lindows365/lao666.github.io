@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
 
-    <title>Posts | 追亿的博客</title>
-    <meta property="og:title" content="Posts - 追亿的博客">
+    <title> | 追亿的博客</title>
+    <meta property="og:title" content=" - 追亿的博客">
     <meta property="og:type" content="article">
         
         
     <meta name="Keywords" content="golang,go语言,go语言笔记,飞雪无情,java,android,博客,项目管理,python,软件架构,公众号,小程序">
-    <meta name="description" content="Posts">
+    <meta name="description" content="">
         
     <meta name="author" content="追亿无情">
-    <meta property="og:url" content="http://666.rrr7.net:1313/posts/">
+    <meta property="og:url" content="http://666.rrr7.net:1313/posts/next-post/">
     <link rel="shortcut icon" href='/favicon.ico' type="image/x-icon">
     <link rel="icon" href='/favicon.png' type="image/png">
     <link rel="alternate icon" href='/favicon.png' type="image/svg+xml">
@@ -24,7 +24,6 @@
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
-    <link rel="alternate" type="application/rss+xml" href="http://666.rrr7.net:1313/posts/index.xml" title="追亿的博客" />
     <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -72,41 +71,15 @@
                     
 <div class="res-cons">
     
-    
     <article class="post">
         <header>
-            <h1 class="post-title">
-                <a href="http://666.rrr7.net:1313/posts/my-first-post/" title="老谢的爱恨情愁" target="_blank">老谢的爱恨情愁</a>
-            </h1>
-        </header>
-        
-  <time datetime="2025-08-31T02:53:32Z" class="post-meta meta-date dt-published">
-    2025-08-31
-  </time>
-
-
-
-        <div class="post-content">
-            <pre><code>老谢对老六的爱，爱的死去活来的！
-</code></pre>
-<p>
-        <img class="mx-auto" alt="la666_0001.jpg" src="/images/blog/la666_0001.jpg" />   
-    </p>……
-        </div>
-        <p class="readmore"><a href="http://666.rrr7.net:1313/posts/my-first-post/" target="_blank">Continue reading</a></p>
-    </article>
-    
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="http://666.rrr7.net:1313/posts/next-post/" title="" target="_blank"></a>
-            </h1>
+            <h1 class="post-title"></h1>
         </header>
         
 
 
+        
+        
         <div class="post-content">
             <h1 id="如何用-nextjs-构建个人博客">如何用 Next.js 构建个人博客</h1>
 <blockquote>
@@ -132,17 +105,29 @@
 <h2 id="总结">总结</h2>
 <p>Next.js 提供了强大的功能和极佳的开发体验，非常适合个人博客和内容网站的搭建。希望本文能帮助你快速上手并顺利上线自己的博客！</p>
 <hr>
-<p>欢迎关注我的 GitHub：<a href="https://github.com/yourname">yourname</a></p>……
+<p>欢迎关注我的 GitHub：<a href="https://github.com/yourname">yourname</a></p>
+
         </div>
-        <p class="readmore"><a href="http://666.rrr7.net:1313/posts/next-post/" target="_blank">Continue reading</a></p>
+
+        
+
+
+        
+
+
+        <div class="post-meta meta-tags">
+            
+            No tags
+            
+        </div>
     </article>
     
     
+
     
-
-
-
-
+    
+    
+    
 
 </div>
 
@@ -161,6 +146,17 @@
 </footer>
 
 
+    
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
 <a id="rocket" href="#top"></a>
 <script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
@@ -168,6 +164,80 @@
 
 
 
+<style type="text/css">
+div.highlight {
+    position: relative;
+    margin: 1em 0px;
+}
+
+.copy-code {
+    display: none;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(78, 78, 78, 0.8);
+    border-radius: var(--radius);
+    padding: 0 5px;
+    font: inherit;
+    user-select: none;
+    cursor: pointer;
+    border: 0;
+    --radius: 8px;
+}
+
+div.highlight:hover .copy-code,pre:hover .copy-code {
+    display: block;
+}
+
+</style>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
 
 
 
