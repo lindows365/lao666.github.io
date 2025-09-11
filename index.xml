@@ -2,39 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>追亿的博客</title>
-    <link>http://666.rrr7.net:1313/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 追亿的博客</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 31 Aug 2025 10:53:32 +0800</lastBuildDate>
-    <atom:link href="http://666.rrr7.net:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>老谢的爱恨情愁</title>
-      <link>http://666.rrr7.net:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Sun, 31 Aug 2025 10:53:32 +0800</pubDate>
-      <guid>http://666.rrr7.net:1313/posts/my-first-post/</guid>
-      <description>&lt;pre&gt;&lt;code&gt;老谢对老六的爱，爱的死去活来的！&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&#xD;&#xA;        &lt;img class=&#34;mx-auto&#34; alt=&#34;la666_0001.jpg&#34; src=&#34;http://666.rrr7.net:1313/images/blog/la666_0001.jpg&#34; /&gt;   &#xD;&#xA;    &lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;老谢对老六的爱，爱的死去活来的！&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&#xD;&#xA;        &lt;img class=&#34;mx-auto&#34; alt=&#34;la666_0001.jpg&#34; src=&#34;http://localhost:1313/images/blog/la666_0001.jpg&#34; /&gt;   &#xD;&#xA;    &lt;/p&gt;</description>
     </item>
     <item>
       <title>关于我</title>
-      <link>http://666.rrr7.net:1313/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 10 Mar 2015 00:13:27 +0000</pubDate>
-      <guid>http://666.rrr7.net:1313/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;《Go 实战笔记》系列作者，《Golang Gin 实战》系列作者，《Android Gradle权威指南》作者，现负责技术管理。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://yuedu.baidu.com/ebook/14a722970740be1e640e9a3e&#34;&gt;Android Gradle权威指南&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;公众号，扫码关注&lt;/p&gt;&#xA;&lt;p&gt;&#xD;&#xA;        &lt;img class=&#34;mx-auto&#34; alt=&#34;扫码关注&#34; src=&#34;qrcode_for_weixin.jpg&#34; /&gt;   &#xD;&#xA;    &lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://666.rrr7.net:1313/archives/</link>
+      <link>http://localhost:1313/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://666.rrr7.net:1313/archives/</guid>
+      <guid>http://localhost:1313/archives/</guid>
       <description>&lt;p&gt;title: &amp;ldquo;归档&amp;rdquo;&#xA;description: Android资深工程师 ，Go和Java打杂师，《Android Gradle权威指南》作者，Android官方技术文档译者&#xA;type: archives&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://666.rrr7.net:1313/posts/next-post/</link>
+      <link>http://localhost:1313/posts/next-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://666.rrr7.net:1313/posts/next-post/</guid>
+      <guid>http://localhost:1313/posts/next-post/</guid>
       <description>&lt;h1 id=&#34;如何用-nextjs-构建个人博客&#34;&gt;如何用 Next.js 构建个人博客&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;作者：老六&lt;br&gt;&#xA;日期：2025-08-20&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;随着前端技术的发展，越来越多的开发者选择使用 Next.js 来搭建个人博客。本文将分享使用 Next.js 快速搭建博客的完整流程和一些实用经验。&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-项目初始化&#34;&gt;1. 项目初始化&lt;/h2&gt;&#xA;&lt;p&gt;首先，使用官方脚手架创建项目：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npx create-next-app my-blog&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-页面路由与布局&#34;&gt;2. 页面路由与布局&lt;/h2&gt;&#xA;&lt;p&gt;Next.js 支持文件式路由，只需在 &lt;code&gt;pages&lt;/code&gt; 或 &lt;code&gt;app&lt;/code&gt; 目录下添加对应的文件即可自动生成页面。推荐使用 &lt;code&gt;app&lt;/code&gt; 目录实现更灵活的布局。&lt;/p&gt;&#xA;&lt;h2 id=&#34;3-数据管理&#34;&gt;3. 数据管理&lt;/h2&gt;&#xA;&lt;p&gt;可以使用 &lt;code&gt;getStaticProps&lt;/code&gt; 或 &lt;code&gt;getServerSideProps&lt;/code&gt; 获取数据，也可以集成 CMS 或数据库。对于个人博客，建议将文章内容以 Markdown 文件存储，便于管理和编辑。&lt;/p&gt;&#xA;&lt;h2 id=&#34;4-部署上线&#34;&gt;4. 部署上线&lt;/h2&gt;&#xA;&lt;p&gt;推荐使用 Vercel 平台部署 Next.js 项目，只需一键即可自动构建和上线。&lt;/p&gt;&#xA;&lt;h2 id=&#34;5-常见问题与解决方案&#34;&gt;5. 常见问题与解决方案&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;样式丢失&lt;/strong&gt;：检查 CSS 文件是否正确引入。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;路由404&lt;/strong&gt;：确认页面文件命名和路径是否正确。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;&#xA;&lt;p&gt;Next.js 提供了强大的功能和极佳的开发体验，非常适合个人博客和内容网站的搭建。希望本文能帮助你快速上手并顺利上线自己的博客！&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;欢迎关注我的 GitHub：&lt;a href=&#34;https://github.com/yourname&#34;&gt;yourname&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>&lt;h1 id=&#34;thinkphp-框架开发入门与实战&#34;&gt;ThinkPHP 框架开发入门与实战&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;作者：老六&lt;br&gt;&#xA;日期：2025-09-11&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;什么是-thinkphp&#34;&gt;什么是 ThinkPHP？&lt;/h2&gt;&#xA;&lt;p&gt;ThinkPHP 是国内流行的 PHP 开发框架，具有高效、简洁、易扩展等特点，适合快速开发各类 Web 应用。&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-快速安装&#34;&gt;1. 快速安装&lt;/h2&gt;&#xA;&lt;p&gt;推荐使用 Composer 安装：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;composer create-project topthink/think tpapp&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-目录结构简介&#34;&gt;2. 目录结构简介&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tpapp/&#xD;&#xA;├─ app/         # 应用目录&#xD;&#xA;├─ public/      # WEB 入口目录&#xD;&#xA;├─ config/      # 配置文件目录&#xD;&#xA;├─ route/       # 路由定义目录&#xD;&#xA;├─ vendor/      # 第三方库&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;3-创建控制器&#34;&gt;3. 创建控制器&lt;/h2&gt;&#xA;&lt;p&gt;在 &lt;code&gt;app/controller&lt;/code&gt; 目录下新建 &lt;code&gt;Index.php&lt;/code&gt;：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;namespace&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;app\controller&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Index&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;index&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;欢迎使用 ThinkPHP！&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-路由配置&#34;&gt;4. 路由配置&lt;/h2&gt;&#xA;&lt;p&gt;在 &lt;code&gt;route/app.php&lt;/code&gt; 添加路由：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;use&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;think\facade\Route&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Route&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Index/index&amp;#39;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;5-数据库操作示例&#34;&gt;5. 数据库操作示例&lt;/h2&gt;&#xA;&lt;p&gt;ThinkPHP 内置 ORM，操作数据库非常方便：&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

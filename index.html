@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta name="Keywords" content="golang,go语言,go语言笔记,飞雪无情,java,android,博客,项目管理,python,软件架构,公众号,小程序">
     <meta name="description" content="专注于IT互联网，包括但不限于Go语言(golang)、Java、Android、Python、项目管理、抖音分析、软件架构等">
-    <meta property="og:url" content="http://666.rrr7.net:1313/">
+    <meta property="og:url" content="http://localhost:1313/">
     <link rel="shortcut icon" href='/favicon.ico' type="image/x-icon">
     <link rel="icon" href='/favicon.png' type="image/png">
     <link rel="alternate icon" href='/favicon.png' type="image/svg+xml">
@@ -21,7 +21,7 @@
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
-    <link rel="alternate" type="application/rss+xml" href="http://666.rrr7.net:1313/index.xml" title="追亿的博客" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="追亿的博客" />
     <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -40,7 +40,7 @@
             <div class="site-name ">
                 
                     <h1>
-                        <a id="logo" href="http://666.rrr7.net:1313/">
+                        <a id="logo" href="http://localhost:1313/">
                             追亿的博客
                         </a>
                     </h1>
@@ -49,13 +49,13 @@
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="current" href="http://666.rrr7.net:1313/">Home</a>
+                    <a class="current" href="http://localhost:1313/">Home</a>
                     
-                    <a  href="http://666.rrr7.net:1313/books/" title="新书">新书</a>
+                    <a  href="http://localhost:1313/books/" title="新书">新书</a>
                     
-                    <a  href="http://666.rrr7.net:1313/archives/" title="归档">归档</a>
+                    <a  href="http://localhost:1313/archives/" title="归档">归档</a>
                     
-                    <a  href="http://666.rrr7.net:1313/about/" title="关于">关于</a>
+                    <a  href="http://localhost:1313/about/" title="关于">关于</a>
                     
                 </nav>
             </div>
@@ -75,7 +75,7 @@
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="http://666.rrr7.net:1313/posts/my-first-post/" title="老谢的爱恨情愁" target="_blank">老谢的爱恨情愁</a>
+                <a href="http://localhost:1313/posts/my-first-post/" title="老谢的爱恨情愁" target="_blank">老谢的爱恨情愁</a>
             </h1>
         </header>
         
@@ -92,7 +92,7 @@
         <img class="mx-auto" alt="la666_0001.jpg" src="/images/blog/la666_0001.jpg" />   
     </p>……
         </div>
-        <p class="readmore"><a href="http://666.rrr7.net:1313/posts/my-first-post/" target="_blank">Continue reading</a></p>
+        <p class="readmore"><a href="http://localhost:1313/posts/my-first-post/" target="_blank">Continue reading</a></p>
     </article>
     
     
@@ -100,7 +100,7 @@
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="http://666.rrr7.net:1313/posts/next-post/" title="" target="_blank"></a>
+                <a href="http://localhost:1313/posts/next-post/" title="" target="_blank"></a>
             </h1>
         </header>
         
@@ -133,7 +133,59 @@
 <hr>
 <p>欢迎关注我的 GitHub：<a href="https://github.com/yourname">yourname</a></p>……
         </div>
-        <p class="readmore"><a href="http://666.rrr7.net:1313/posts/next-post/" target="_blank">Continue reading</a></p>
+        <p class="readmore"><a href="http://localhost:1313/posts/next-post/" target="_blank">Continue reading</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="http://localhost:1313/posts/test/" title="" target="_blank"></a>
+            </h1>
+        </header>
+        
+
+
+        <div class="post-content">
+            <h1 id="thinkphp-框架开发入门与实战">ThinkPHP 框架开发入门与实战</h1>
+<blockquote>
+<p>作者：老六<br>
+日期：2025-09-11</p></blockquote>
+<hr>
+<h2 id="什么是-thinkphp">什么是 ThinkPHP？</h2>
+<p>ThinkPHP 是国内流行的 PHP 开发框架，具有高效、简洁、易扩展等特点，适合快速开发各类 Web 应用。</p>
+<h2 id="1-快速安装">1. 快速安装</h2>
+<p>推荐使用 Composer 安装：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>composer create-project topthink/think tpapp
+</span></span></code></pre></div><h2 id="2-目录结构简介">2. 目录结构简介</h2>
+<pre tabindex="0"><code>tpapp/
+├─ app/         # 应用目录
+├─ public/      # WEB 入口目录
+├─ config/      # 配置文件目录
+├─ route/       # 路由定义目录
+├─ vendor/      # 第三方库
+</code></pre><h2 id="3-创建控制器">3. 创建控制器</h2>
+<p>在 <code>app/controller</code> 目录下新建 <code>Index.php</code>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">namespace</span> <span style="color:#a6e22e">app\controller</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Index</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">index</span>()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#39;欢迎使用 ThinkPHP！&#39;</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="4-路由配置">4. 路由配置</h2>
+<p>在 <code>route/app.php</code> 添加路由：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">use</span> <span style="color:#a6e22e">think\facade\Route</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Route</span><span style="color:#f92672">::</span><span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/&#39;</span>, <span style="color:#e6db74">&#39;Index/index&#39;</span>);
+</span></span></code></pre></div><h2 id="5-数据库操作示例">5. 数据库操作示例</h2>
+<p>ThinkPHP 内置 ORM，操作数据库非常方便：</p>……
+        </div>
+        <p class="readmore"><a href="http://localhost:1313/posts/test/" target="_blank">Continue reading</a></p>
     </article>
     
     
@@ -147,7 +199,7 @@
 
                     <footer id="footer">
     <div>
-        &copy; 2025 <a href="http://666.rrr7.net:1313/">追亿的博客 By 追亿无情</a>
+        &copy; 2025 <a href="http://localhost:1313/">追亿的博客 By 追亿无情</a>
         
     </div>
     <br />
@@ -179,7 +231,7 @@
         <form id="search" action='//www.google.com/search' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
       
       <input type="text" name="q" maxlength="20" placeholder="Search">
-      <input type="hidden" name="sitesearch" value="http://666.rrr7.net:1313/">
+      <input type="hidden" name="sitesearch" value="http://localhost:1313/">
       <button type="submit" class="submit icon-search"></button>
 </form>
     </section>
@@ -189,11 +241,15 @@
 <ul class="widget-list">
     
     <li>
-        <a href="http://666.rrr7.net:1313/posts/my-first-post/" title="老谢的爱恨情愁" target="_blank">老谢的爱恨情愁</a>
+        <a href="http://localhost:1313/posts/my-first-post/" title="老谢的爱恨情愁" target="_blank">老谢的爱恨情愁</a>
     </li>
     
     <li>
-        <a href="http://666.rrr7.net:1313/posts/next-post/" title="" target="_blank"></a>
+        <a href="http://localhost:1313/posts/next-post/" title="" target="_blank"></a>
+    </li>
+    
+    <li>
+        <a href="http://localhost:1313/posts/test/" title="" target="_blank"></a>
     </li>
     
 </ul>
@@ -235,7 +291,7 @@
     <section class="widget">
         <h3 class="widget-title">Meta</h3>
         <ul class="widget-list">
-            <li><a href="http://666.rrr7.net:1313/index.xml">RSS</a></li>
+            <li><a href="http://localhost:1313/index.xml">RSS</a></li>
         </ul>
     </section>
 </div>
