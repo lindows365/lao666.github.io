@@ -1,33 +1,120 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on 追亿的博客</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on 追亿的博客</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Sun, 31 Aug 2025 10:53:32 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>老谢的爱恨情愁</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sun, 31 Aug 2025 10:53:32 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;pre&gt;&lt;code&gt;老谢对老六的爱，爱的死去活来的！&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&#xD;&#xA;        &lt;img class=&#34;mx-auto&#34; alt=&#34;la666_0001.jpg&#34; src=&#34;http://localhost:1313/images/blog/la666_0001.jpg&#34; /&gt;   &#xD;&#xA;    &lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/next-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/next-post/</guid>
-      <description>&lt;h1 id=&#34;如何用-nextjs-构建个人博客&#34;&gt;如何用 Next.js 构建个人博客&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;作者：老六&lt;br&gt;&#xA;日期：2025-08-20&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;随着前端技术的发展，越来越多的开发者选择使用 Next.js 来搭建个人博客。本文将分享使用 Next.js 快速搭建博客的完整流程和一些实用经验。&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-项目初始化&#34;&gt;1. 项目初始化&lt;/h2&gt;&#xA;&lt;p&gt;首先，使用官方脚手架创建项目：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npx create-next-app my-blog&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-页面路由与布局&#34;&gt;2. 页面路由与布局&lt;/h2&gt;&#xA;&lt;p&gt;Next.js 支持文件式路由，只需在 &lt;code&gt;pages&lt;/code&gt; 或 &lt;code&gt;app&lt;/code&gt; 目录下添加对应的文件即可自动生成页面。推荐使用 &lt;code&gt;app&lt;/code&gt; 目录实现更灵活的布局。&lt;/p&gt;&#xA;&lt;h2 id=&#34;3-数据管理&#34;&gt;3. 数据管理&lt;/h2&gt;&#xA;&lt;p&gt;可以使用 &lt;code&gt;getStaticProps&lt;/code&gt; 或 &lt;code&gt;getServerSideProps&lt;/code&gt; 获取数据，也可以集成 CMS 或数据库。对于个人博客，建议将文章内容以 Markdown 文件存储，便于管理和编辑。&lt;/p&gt;&#xA;&lt;h2 id=&#34;4-部署上线&#34;&gt;4. 部署上线&lt;/h2&gt;&#xA;&lt;p&gt;推荐使用 Vercel 平台部署 Next.js 项目，只需一键即可自动构建和上线。&lt;/p&gt;&#xA;&lt;h2 id=&#34;5-常见问题与解决方案&#34;&gt;5. 常见问题与解决方案&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;样式丢失&lt;/strong&gt;：检查 CSS 文件是否正确引入。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;路由404&lt;/strong&gt;：确认页面文件命名和路径是否正确。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;&#xA;&lt;p&gt;Next.js 提供了强大的功能和极佳的开发体验，非常适合个人博客和内容网站的搭建。希望本文能帮助你快速上手并顺利上线自己的博客！&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;欢迎关注我的 GitHub：&lt;a href=&#34;https://github.com/yourname&#34;&gt;yourname&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description>&lt;h1 id=&#34;thinkphp-框架开发入门与实战&#34;&gt;ThinkPHP 框架开发入门与实战&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;作者：老六&lt;br&gt;&#xA;日期：2025-09-11&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;什么是-thinkphp&#34;&gt;什么是 ThinkPHP？&lt;/h2&gt;&#xA;&lt;p&gt;ThinkPHP 是国内流行的 PHP 开发框架，具有高效、简洁、易扩展等特点，适合快速开发各类 Web 应用。&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-快速安装&#34;&gt;1. 快速安装&lt;/h2&gt;&#xA;&lt;p&gt;推荐使用 Composer 安装：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;composer create-project topthink/think tpapp&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-目录结构简介&#34;&gt;2. 目录结构简介&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tpapp/&#xD;&#xA;├─ app/         # 应用目录&#xD;&#xA;├─ public/      # WEB 入口目录&#xD;&#xA;├─ config/      # 配置文件目录&#xD;&#xA;├─ route/       # 路由定义目录&#xD;&#xA;├─ vendor/      # 第三方库&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;3-创建控制器&#34;&gt;3. 创建控制器&lt;/h2&gt;&#xA;&lt;p&gt;在 &lt;code&gt;app/controller&lt;/code&gt; 目录下新建 &lt;code&gt;Index.php&lt;/code&gt;：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;php&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;namespace&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;app\controller&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Index&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;index&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;欢迎使用 ThinkPHP！&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-路由配置&#34;&gt;4. 路由配置&lt;/h2&gt;&#xA;&lt;p&gt;在 &lt;code&gt;route/app.php&lt;/code&gt; 添加路由：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;use&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;think\facade\Route&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Route&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Index/index&amp;#39;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;5-数据库操作示例&#34;&gt;5. 数据库操作示例&lt;/h2&gt;&#xA;&lt;p&gt;ThinkPHP 内置 ORM，操作数据库非常方便：&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 追亿的博客</title><link>https://666.rrr7.net/posts/</link><description>Recent content in Posts on 追亿的博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://666.rrr7.net/posts/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://666.rrr7.net/posts/next-post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://666.rrr7.net/posts/next-post/</guid><description>&lt;h1 id="如何用-nextjs-构建个人博客"&gt;如何用 Next.js 构建个人博客&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;作者：老六&lt;br&gt;
+日期：2025-08-20&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
+&lt;p&gt;随着前端技术的发展，越来越多的开发者选择使用 Next.js 来搭建个人博客。本文将分享使用 Next.js 快速搭建博客的完整流程和一些实用经验。&lt;/p&gt;
+&lt;h2 id="1-项目初始化"&gt;1. 项目初始化&lt;/h2&gt;
+&lt;p&gt;首先，使用官方脚手架创建项目：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;npx create-next-app my-blog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="2-页面路由与布局"&gt;2. 页面路由与布局&lt;/h2&gt;
+&lt;p&gt;Next.js 支持文件式路由，只需在 &lt;code&gt;pages&lt;/code&gt; 或 &lt;code&gt;app&lt;/code&gt; 目录下添加对应的文件即可自动生成页面。推荐使用 &lt;code&gt;app&lt;/code&gt; 目录实现更灵活的布局。&lt;/p&gt;
+&lt;h2 id="3-数据管理"&gt;3. 数据管理&lt;/h2&gt;
+&lt;p&gt;可以使用 &lt;code&gt;getStaticProps&lt;/code&gt; 或 &lt;code&gt;getServerSideProps&lt;/code&gt; 获取数据，也可以集成 CMS 或数据库。对于个人博客，建议将文章内容以 Markdown 文件存储，便于管理和编辑。&lt;/p&gt;
+&lt;h2 id="4-部署上线"&gt;4. 部署上线&lt;/h2&gt;
+&lt;p&gt;推荐使用 Vercel 平台部署 Next.js 项目，只需一键即可自动构建和上线。&lt;/p&gt;
+&lt;h2 id="5-常见问题与解决方案"&gt;5. 常见问题与解决方案&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;样式丢失&lt;/strong&gt;：检查 CSS 文件是否正确引入。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;路由404&lt;/strong&gt;：确认页面文件命名和路径是否正确。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="总结"&gt;总结&lt;/h2&gt;
+&lt;p&gt;Next.js 提供了强大的功能和极佳的开发体验，非常适合个人博客和内容网站的搭建。希望本文能帮助你快速上手并顺利上线自己的博客！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;欢迎关注我的 GitHub：&lt;a href="https://github.com/yourname"&gt;yourname&lt;/a&gt;&lt;/p&gt;</description></item><item><title/><link>https://666.rrr7.net/posts/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://666.rrr7.net/posts/test/</guid><description>&lt;h1 id="thinkphp-框架开发入门与实战"&gt;ThinkPHP 框架开发入门与实战&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;作者：老六&lt;br&gt;
+日期：2025-09-11&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="什么是-thinkphp"&gt;什么是 ThinkPHP？&lt;/h2&gt;
+&lt;p&gt;ThinkPHP 是国内流行的 PHP 开发框架，具有高效、简洁、易扩展等特点，适合快速开发各类 Web 应用。&lt;/p&gt;
+&lt;h2 id="1-快速安装"&gt;1. 快速安装&lt;/h2&gt;
+&lt;p&gt;推荐使用 Composer 安装：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;composer create-project topthink/think tpapp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="2-目录结构简介"&gt;2. 目录结构简介&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;tpapp/
+├─ app/ # 应用目录
+├─ public/ # WEB 入口目录
+├─ config/ # 配置文件目录
+├─ route/ # 路由定义目录
+├─ vendor/ # 第三方库
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="3-创建控制器"&gt;3. 创建控制器&lt;/h2&gt;
+&lt;p&gt;在 &lt;code&gt;app/controller&lt;/code&gt; 目录下新建 &lt;code&gt;Index.php&lt;/code&gt;：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-php" data-lang="php"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;?&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;php&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;namespace&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;app\controller&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Index&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;function&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;index&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;欢迎使用 ThinkPHP！&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="4-路由配置"&gt;4. 路由配置&lt;/h2&gt;
+&lt;p&gt;在 &lt;code&gt;route/app.php&lt;/code&gt; 添加路由：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-php" data-lang="php"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;use&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;think\facade\Route&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;Route&lt;/span&gt;&lt;span style="color:#f92672"&gt;::&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;get&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#39;/&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;Index/index&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="5-数据库操作示例"&gt;5. 数据库操作示例&lt;/h2&gt;
+&lt;p&gt;ThinkPHP 内置 ORM，操作数据库非常方便：&lt;/p&gt;</description></item><item><title/><link>https://666.rrr7.net/posts/yii/yii2_001/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://666.rrr7.net/posts/yii/yii2_001/</guid><description>&lt;h1 id="yii2-框架开发入门与实战-记录-第1章"&gt;YII2 框架开发入门与实战 记录 第1章&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;作者：老六&lt;br&gt;
+日期：2025-09-18&lt;/p&gt;
+&lt;h2 id="2-目录结构简介"&gt;2. 目录结构简介&lt;/h2&gt;&lt;/blockquote&gt;
+&lt;p&gt;
+ &lt;img class="mx-auto" alt="yii_2.jpg" src="https://666.rrr7.net/images/blog/20250918/yii_2.jpg" /&gt; 
+ &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;assets 前端资源文件夹，用于管理css js等前端资源文件等
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;commands 包含命令行命令，文件为控制器文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;config 应用的配置文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;controllers 控制器文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;mail （应用的前后台和命令行的与邮件相关的布局文件等）
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;modles 模型文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;runtime 程序运行时生成的临时文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;tests 用于各种测试程序的测试类文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;vendor 就是各种第三方的程序。 这是Composer安装的其他程序的存放目录，包含Yii框架本身。
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;如果你向composer.json 目录增加了新的安装的程序，下次调用Composer的时候， 就会把新安装的目录也安装在这个 vendor 下面。
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;views 视图文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;web 入口文件的存放目录，对于Web服务器可以访问的目录。其他所有的目录不对Web用户显示。
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;requirements.php 测试环境是否符合yii框架的要求
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;yii 文件 它没有扩展名，我们不好知道其具体类型。 但是从文件内容的第一行 &lt;span style="color:#75715e"&gt;#!/usr/bin/env php 来看，这是一个bash脚本。 第一行在告诉bash，也在告诉我们，这是一个使用PHP运行的脚本。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;对于Windows系统而言，命令行的入口脚本仍然是 yii ，但是命令行下无法直接运行。所以Yii为我们准备了一个 yii.bat 。这个文件会以 php yii 形式调用PHP来运行入口脚本 。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="yii2的入口文件-webindexphp"&gt;yii2的入口文件 web/index.php&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-php" data-lang="php"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;?&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;php&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;defined&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#39;YII_DEBUG&amp;#39;&lt;/span&gt;) &lt;span style="color:#66d9ef"&gt;or&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;define&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#39;YII_DEBUG&amp;#39;&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;/**
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; * 在调试模式下执,默认情况下YII_DEBUG为ture.如果定义了YII_DEBUG,则后面的语句将不执行.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; * 如果定义了 YII_DEBUG ,那么表示当前为调试状态,应用在运行过程中,会有一些调试信息的输出.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;defined&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#39;YII_ENV&amp;#39;&lt;/span&gt;) &lt;span style="color:#66d9ef"&gt;or&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;define&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#39;YII_ENV&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;dev&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;/**
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; * dev prod 是安装后默认的两个环境，分别表示开发环境和最终的成品环境。默认情况YII_ENV为prod 表示产品环境。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; * 如果定义了YII_ENV应用将运行于 dev 环境。此外还有一个 test 环境，表示测试环境。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; * YII_ENV 的 dev prod test 三种环境， 会分别使 YII_ENV_DEV YII_ENV_PROD YII_ENV_TEST 的值为 true 。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; * 在应用的配置中，可以对不同环境作出不同的配置。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;require&lt;/span&gt;(&lt;span style="color:#66d9ef"&gt;__DIR__&lt;/span&gt; &lt;span style="color:#f92672"&gt;.&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;/../vendor/autoload.php&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;require&lt;/span&gt;(&lt;span style="color:#66d9ef"&gt;__DIR__&lt;/span&gt; &lt;span style="color:#f92672"&gt;.&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;/../vendor/yiisoft/yii2/Yii.php&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;/**
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; * 注册Composer自动加载器，yii.php包含Yii的类文件。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$config &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;require&lt;/span&gt;(&lt;span style="color:#66d9ef"&gt;__DIR__&lt;/span&gt; &lt;span style="color:#f92672"&gt;.&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;/../config/web.php&amp;#39;&lt;/span&gt;); &lt;span style="color:#75715e"&gt;//引入配置文件。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;(&lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;yii\web\Application&lt;/span&gt;($config))&lt;span style="color:#f92672"&gt;-&amp;gt;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;run&lt;/span&gt;(); &lt;span style="color:#75715e"&gt;// 实例化Application类，通过run（）调用。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item></channel></rss>
